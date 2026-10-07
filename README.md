@@ -1,6 +1,6 @@
-# How long until random letters spell a word?
+# Infinite Monkey Theorem - An Exploration
 
-An interactive Streamlit experiment. It keeps drawing random strings of letters until one is a real English word, counts the failed attempts, and shows how the wait grows, and the probability shrinks, as words get longer.
+An interactive Streamlit experiment on a variation of the Infinite Monkey Theorem. It keeps drawing random strings of letters until one is a real English word from a dictionary. It counts the failed attempts, and shows how the number of attempts to find a valid word grows as words get longer.
 
 ![Results](screenshot-results.png)
 
