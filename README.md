@@ -2,8 +2,6 @@
 
 An interactive Streamlit experiment on a variation of the Infinite Monkey Theorem. It keeps drawing random strings of letters until one is a real English word from a dictionary. It counts the failed attempts, and shows how the number of attempts to find a valid word grows as words get longer.
 
-![Results](screenshot-results.png)
-
 ## What it does
 
 For each word length you choose, the app runs many trials of the same experiment:
@@ -18,7 +16,9 @@ From those trials it reports:
 - **Probability that a random string is a word**: words found ÷ strings drawn, with a 95% Wilson interval. It also gets an exponential fit.
 - **A log-scale view** of the probability, with a quadratic fit in log space that captures the curve's bend.
 
-The page explains each step, each parameter and each fit in plain language.
+The page explains each step, each parameter and each fit in plain language. Results for a sample run are shown below:
+
+![Results](screenshot-results.png)
 
 ## Run it
 
