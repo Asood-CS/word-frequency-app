@@ -1,6 +1,6 @@
 # Infinite Monkey Theorem - An Exploration
 
-An interactive Streamlit experiment on a variation of the Infinite Monkey Theorem. It keeps drawing random strings of letters until one is a real English word from a dictionary. It counts the failed attempts, and shows how the number of attempts to find a valid word grows as words get longer.
+This interactive Streamlit experiment is a variation of the Infinite Monkey Theorem - that is, if a monkey types random strings with infinite time, eventually it will generate any text in the English language by pure chance. It keeps drawing random strings of letters until one is a real English word from a dictionary. It counts the failed attempts, and shows how the number of attempts to find a valid word grows as words get longer.
 
 ## What it does
 
